@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MSS ACADEMY SS 1 geography result</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Enter your details</h2>
+            <form id="result-form">
+                <label for="student-id">Student ID:</label>
+                <input type="text" id="student-id" name="student-id" required><br><br>
+                <label for="term">Term:</label>
+                <select id="term" name="term">
+                    <option value="1">First C.A</option>
+                    <option value="2">Second C.A</option>
+                    <option value="3">Exam</option>
+                </select><br><br>
+                <input type="submit" value="Check Result">
+            </form>
+            <div id="result"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

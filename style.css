@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: red;
+    border: 2px solid white;
+    text-align: center;
+    padding: 1px;
+    height: 10%;
+    text-transform: uppercase;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+section{
+    background-color: aqua;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    margin-bottom: 5px;
+}
+input[type="text"], select{
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+}
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+#result{
+    margin-top: 15px;
+    padding: 40px;
+    border: 2px solid aqua;
+    background-color: #f0f0f0;
+}
